@@ -15,7 +15,6 @@ public class SingletonDemo1 {
      *
      * @return
      */
-
     public static SingletonDemo1 getUniqueInstance() {
 //        线程不安全,如果有多个线程到达if判断,而且都是null,就会创建出多个实例对象
         if (uniqueInstance == null) {
