@@ -31,4 +31,11 @@ public class Citation implements Cloneable {
     public Citation clone() throws CloneNotSupportedException {
         return (Citation) super.clone();
     }
+
+    @Override
+    public String toString() {
+        return "Citation{" +
+                "student=" + student +
+                '}';
+    }
 }
