@@ -15,7 +15,7 @@ public class Client {
         Student student = new Student();
         student.setName("张三");
         citation.setStudent(student);
-        
+
 
         //序列化对象
         ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("/Users/humeng/Github/Java/designPattern/designPattern/prototype/src/com/red/test1/a.txt"));
